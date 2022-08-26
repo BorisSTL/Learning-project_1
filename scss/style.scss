@@ -1106,3 +1106,22 @@
 }
 
 .conteiner {}
+
+.divpClass {
+	width: 400px;
+	height: 200px;
+	background-color: green;
+	color: blue;
+	border: #282f35 2px solid;
+	border-radius: 15px;
+	margin: auto;
+
+	& a {
+		display: inline-block;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 100%;
+	}
+}
